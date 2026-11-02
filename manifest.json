@@ -1,0 +1,28 @@
+{
+    "description": "Removes watch later playlist from all open tabs",
+    "manifest_version": 3,
+    "name": "WLRemover",
+    "version": "1.0",
+    "homepage_url": "https://github.com/frog-wrangler/WLRemover",
+    "icons": {
+      "32": "icons/wl_icon_32.png",
+      "64": "icons/wl_icon_64.png"
+    },
+    "permissions": [
+      "*://www.youtube.com/*",
+      "tabs"
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "{b820d4c9-c497-45b2-87ae-a527d922995d}",
+            "data_collection_permissions": {
+                "required": ["none"]
+            }
+        }
+    },
+    "action": {
+        "default_icon": "icons/wl_icon_64",
+        "default_title": "WLRemover",
+        "default_popup": "popup/index.html"
+    }
+}
