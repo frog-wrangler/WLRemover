@@ -1,0 +1,22 @@
+html,
+body {
+    width: 200px;
+    background-color: rgb(10, 10, 10);
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    margin: 3% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(100, 100, 100);
+}
+
+button:hover {
+    background-color: rgb(163, 96, 96);
+}
